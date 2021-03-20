@@ -1,9 +1,9 @@
 # Mask Detection Monitor
 
-![GitHub repo size](https://img.shields.io/github/repo-size/zeyad-mansour/social-distancing-monitor)
-![GitHub contributors](https://img.shields.io/github/contributors/zeyad-mansour/social-distancing-monitor)
+![GitHub repo size](https://img.shields.io/github/repo-size/zeyad-mansour/mask-detection-monitor)
+![GitHub contributors](https://img.shields.io/github/contributors/zeyad-mansour/ask-detection-monitor)
 
-Provided video or image input, this tool uses YOLOv5 model trained to detect medical mask wearers, and based on that, it assigns a score. This score can be used to send determine when to send alerts given a threshold.
+Provided video or image input, this tool uses a YOLOv5 model trained to detect medical mask wearers, and based on that, it calculates a score. This score can be used to send determine when to send alerts given a threshold. The hack also provides a graph of the mask wearers over time for easy data analyzing.
 
 ## Demo
 
@@ -47,4 +47,4 @@ This project was created as part of [OSU's 2021 HS hackathon](https://hack.osu.e
 
 ## License
 
-This project uses the following license: [MIT](https://github.com/zeyad-mansour/social-distancing-monitor/blob/main/LICENSE)# mask-detection-monitor
+This project uses the following license: [MIT](https://github.com/zeyad-mansour/social-distancing-monitor/blob/main/LICENSE)
