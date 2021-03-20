@@ -8,6 +8,7 @@ Provided video or image input, this tool uses YOLOv5 model trained to detect med
 ## Demo
 
 This project has been integrated into a web application found [here](https://www.zeyadmansour.com/sdm/). This is hosted using apache on an Ubuntu computer.
+![demo_image](demo_test.png)
 
 ## Prerequisites
 
