@@ -1,0 +1,44 @@
+* {
+  scroll-behavior: smooth;
+}
+
+a.link {
+    text-decoration: underline;
+    color: #515816;
+}
+
+a.link:hover {
+    text-decoration: none;
+    color: #727e21;
+}
+
+a.icon-link {
+    text-decoration: none;
+}
+
+.sidenav {
+  height: 100%;
+  width: 11%;
+  position: fixed;
+  top: 50px;
+  z-index: 0;
+  background: #cddc39;
+  overflow-x: hidden;
+  padding: 8px 0;
+}
+
+.sidenav a {
+  width: 100%;
+  display: block;
+}
+
+.main {
+  margin-left: 140px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
