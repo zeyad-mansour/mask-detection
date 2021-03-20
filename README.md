@@ -8,7 +8,7 @@ Social distancing monitor (SDM) is a tool that provides aggregate data to determ
 Provided video or image input, this tool considers the distance among people, whether or not they are correctly wearing a mask, and the collective spatial spread of the population.
 ## Demo
 
-This project has been integrated into a web application found [here](https://www.zeyadmansour.com/hackathon/).
+This project has been integrated into a web application found [here](https://www.zeyadmansour.com/sdm/).
 
 ## Prerequisites
 
