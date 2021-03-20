@@ -1,14 +1,13 @@
-# Social Distancing Monitor
+# Mask Detection Monitor
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/zeyad-mansour/social-distancing-monitor)
 ![GitHub contributors](https://img.shields.io/github/contributors/zeyad-mansour/social-distancing-monitor)
 
-Social distancing monitor (SDM) is a tool that provides aggregate data to determine the extent to which social distancing is occurring in a populated area.
+Provided video or image input, this tool uses YOLOv5 model trained to detect medical mask wearers, and based on that, it assigns a score. This score can be used to send determine when to send alerts given a threshold.
 
-Provided video or image input, this tool considers the distance among people, whether or not they are correctly wearing a mask, and the collective spatial spread of the population.
 ## Demo
 
-This project has been integrated into a web application found [here](https://www.zeyadmansour.com/sdm/).
+This project has been integrated into a web application found [here](https://www.zeyadmansour.com/sdm/). This is hosted using apache on an Ubuntu computer.
 
 ## Prerequisites
 
