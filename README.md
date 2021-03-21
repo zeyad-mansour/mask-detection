@@ -3,7 +3,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/zeyad-mansour/mask-detection-monitor)
 ![GitHub contributors](https://img.shields.io/github/contributors/zeyad-mansour/mask-detection-monitor)
 
-This tool provides aggregate data for the status of medical mask wearers in a populated area.
+This tool provides aggregate data on the status of medical mask wearers in a populated area.
 
 ## Demo
 
