@@ -1,7 +1,3 @@
 [H[2J[3JNamespace(agnostic_nms=False, augment=False, classes=None, conf_thres=0.6, device='', exist_ok=False, img_size=640, iou_thres=0.3, name='exp', project='runs/detect', save_conf=False, save_txt=False, source='0', update=False, view_img=False, weights=['yolov5/weights/best.pt'])
 
-    ====================================
-         Social Distancing Monitor
-    Creator(s): zeyad-mansour & 0xmmalik
-    ====================================
-    
+"DEBUG=TRUE"
