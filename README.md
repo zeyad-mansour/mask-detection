@@ -3,7 +3,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/zeyad-mansour/mask-detection-monitor)
 ![GitHub contributors](https://img.shields.io/github/contributors/zeyad-mansour/mask-detection-monitor)
 
-Provided video or image input, this tool uses a [YOLOv5](https://github.com/ultralytics/yolov5) model trained to detect the status of medical mask wearers, and based on that, it calculates a score. This score can be used to determine when to send alerts given a threshold. The hack also provides a graph of the mask wearers over time to for easy data analysis.
+Provided video or image input, this tool uses a [YOLOv5](https://github.com/ultralytics/yolov5) model trained to detect the status of medical mask wearers, and based on that, it calculates a score. This score can be used to determine when to send alerts given a threshold. The hack also provides a graph of the mask wearers over time.
 
 ## Demo
 
