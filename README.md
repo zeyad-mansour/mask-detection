@@ -29,7 +29,7 @@ Navigate to the root of the project folder via the CLI. Make sure to specify the
 * Image or video: SOURCE is the path to that file (relative to the root folder)
 	* This is the purpose of the [input_data](input_data) folder.
 * Webcam: Provide no additional arguments
-* HTTP/RTSP stream: SOURCE is the link
+* HTTP/RTSP stream: SOURCE is the URL
 
 ```
 python SDM.py "SOURCE"
