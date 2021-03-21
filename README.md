@@ -3,8 +3,6 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/zeyad-mansour/mask-detection-monitor)
 ![GitHub contributors](https://img.shields.io/github/contributors/zeyad-mansour/mask-detection-monitor)
 
-This tool provides aggregate data on the status of medical mask wearers in a populated area.
-
 ## Demo
 
 This project has been integrated into a web application found [here](https://www.zeyadmansour.com/sdm/). This is hosted using Apache on an Ubuntu system.
