@@ -41,7 +41,7 @@ This project was created in contribution with:
 
 ## Notes
 
-This project was created as part of [OSU's 2021 HS hackathon](https://hack.osu.edu/hs/2021/).
+This project was created as part of [OSU's 2021 HS hackathon](https://hack.osu.edu/hs/2021/) and won 1st place.
 
 ## License
 
