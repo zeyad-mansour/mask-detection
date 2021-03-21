@@ -7,7 +7,7 @@ Provided video or image input, this tool uses a [YOLOv5](https://github.com/ultr
 
 ## Demo
 
-This project has been integrated into a web application found [here](https://www.zeyadmansour.com/sdm/). This is hosted using apache on an Ubuntu computer.
+This project has been integrated into a web application found [here](https://www.zeyadmansour.com/sdm/). This is hosted using Apache on an Ubuntu system.
 ![demo_image](demo_test.png)
 
 ## Prerequisites
