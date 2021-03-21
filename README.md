@@ -30,7 +30,7 @@ Navigate to the root of the project folder via the CLI. Make sure to specify the
 * HTTP/RTSP stream: SOURCE is the URL
 
 ```
-python SDM.py "SOURCE"
+python sdm.py "SOURCE"
 ```
 (Ensure that the default interpreter for the "python" command is version 3.7 or above)
 ## Contributors
