@@ -45,4 +45,4 @@ This project was created as part of [OSU's 2021 HS hackathon](https://hack.osu.e
 
 ## License
 
-This project uses the following license: [MIT](https://github.com/zeyad-mansour/social-distancing-monitor/blob/main/LICENSE)
+This project uses the following license: [MIT](https://github.com/zeyad-mansour/mask-detection-monitor/blob/main/LICENSE)
