@@ -37,9 +37,10 @@ _Ensure that the default interpreter for the `python` command is version 3.7 or 
 Option 2: Upload images/videos to the [web application](https://www.zeyadmansour.com/sdm/).
 ## Contributors
 
-This project was created in contribution with:
+This project was created by:
 
-* Manav Malik ([@0xmmalik](https://github.com/0xmmalik))
+* Zeyad Mansour ([@zeyad-mansour](https://github.com/zeyad-mansour/))
+* Manav Malik ([@0xmmalik](https://github.com/0xmmalik/))
 
 ## Notes
 
