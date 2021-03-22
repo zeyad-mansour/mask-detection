@@ -5,7 +5,7 @@
 
 ## Demo
 
-This project has been integrated into a web application found [here](https://www.zeyadmansour.com/sdm/). This is hosted using Apache on an Ubuntu system.
+This project has been integrated into a web application found [here](https://www.zeyadmansour.com/sdm/).
 ![demo_image](demo_test.png)
 
 ## Prerequisites

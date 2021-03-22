@@ -11,19 +11,21 @@ import io
 #python SDM.py http://wmccpinetop.axiscam.net/mjpg/video.mjpg
 
 #clears the CLI
+#os.system('cls' if os.name == 'nt' else 'clear')
 
-os.system('cls' if os.name == 'nt' else 'clear')
 len_argv = len(sys.argv)
+python_dir = str(subprocess.check_output("which python", shell=True))[2:-3]
 
-if len_argv in [1, 2]:
-    if len_argv == 1:
-        result = subprocess.run(["/home/zeyad/anaconda3/bin/python", "yolov5/detect.py", "--weights", "yolov5/weights/best.pt", "--source", "0", "--iou-thres", "0.3", "--conf-thres", "0.6"], capture_output=True)
-        result = str(result.stdout)
-        print(result[result.rindex(":") + 2:])
-    else:
-        result = subprocess.run(["/home/zeyad/anaconda3/bin/python", "yolov5/detect.py", "--weights", "yolov5/weights/best.pt", "--source", sys.argv[1], "--iou-thres", "0.3", "--conf-thres", "0.6"], capture_output=True)
-        result = str(result.stdout)
-        print(result[result.rindex(":") + 2: -3])
+debug = True if "debug" in sys.argv else False
+detect_args = [python_dir, "yolov5/detect.py", "--weights", "yolov5/weights/best.pt", "--source", "0", "--iou-thres", "0.3", "--conf-thres", "0.6"]
+
+if len_argv == 2 or 3: detect_args[5] = sys.argv[1]
+
+if len_argv not in [1, 2, 3]: raise Exception("extraneous arguments")
+
+if debug:
+    print("debugging...")
+    subprocess.run(detect_args)
 else:
-    raise Exception("Invalid Arguments")
-    sys.quit()
+    result = str(subprocess.run(detect_args, capture_output=True).stdout)
+    print(result[result.rindex(":") + 2: -3])
