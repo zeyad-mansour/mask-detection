@@ -3,6 +3,8 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/zeyad-mansour/mask-detection-monitor)
 ![GitHub contributors](https://img.shields.io/github/contributors/zeyad-mansour/mask-detection-monitor)
 
+The YOLOv5 framework yields extremely fast inference times with high accuracy.
+
 ## Demo
 
 This project has been integrated into a web application found [here](https://www.zeyadmansour.com/sdm/).
