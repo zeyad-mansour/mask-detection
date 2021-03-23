@@ -3,41 +3,51 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/zeyad-mansour/mask-detection-monitor)
 ![GitHub contributors](https://img.shields.io/github/contributors/zeyad-mansour/mask-detection-monitor)
 
+The [YOLOv5](https://github.com/ultralytics/yolov5) framework yields extremely fast inference times with high accuracy.
+
 ## Demo
 
 This project has been integrated into a web application found [here](https://www.zeyadmansour.com/sdm/).
-![demo_image](demo_test.png)
+
+Example Image Output:
+![demo_video_output](demo_video_output.png)
+
+Example Video Output:
+![demo_image_output](demo_image_output.png)
 
 ## Prerequisites
 
 * You have installed a 64-bit release of [Python](https://www.python.org/downloads/) 3.7 or above
+* All Python modules required are installed (see "Installing SDM" below)
 
 ## Installing SDM
 
 1. Clone this repository.
 
-2. Navigate to the root of the project folder via the CLI. Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the necessary dependencies.
+2. Navigate to the root of the project folder via the CLI. Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the necessary dependencies. e.g.,
 ```
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```  
 
 ## Using SDM
 
-Navigate to the root of the project folder via the CLI. Make sure to specify the SOURCE.
-* Image or video: SOURCE is the path to that file (relative to the root folder)
-	* This is the purpose of the [input_data](input_data) folder.
-* Webcam: Provide no additional arguments
-* HTTP/RTSP stream: SOURCE is the URL
+Option 1: Navigate to the root of the project folder via the CLI. e.g.,
+```
+python sdm.py [source]
+```
+* Image or video: [source] is the path to that file (relative to the root folder)
+* Webcam: Do not enter [source]
+* HTTP/RTSP stream: [source] is the URL
 
-```
-python sdm.py "SOURCE"
-```
-(Ensure that the default interpreter for the "python" command is version 3.7 or above)
+_Ensure that the default interpreter for the `python` command is version 3.7 or above (or use `python3`)_
+
+Option 2: Upload images/videos to the [web application](https://www.zeyadmansour.com/sdm/).
 ## Contributors
 
-This project was created in contribution with:
+This project was created by:
 
-* [@0xmmalik](https://github.com/0xmmalik) 📖
+* Zeyad Mansour ([@zeyad-mansour](https://github.com/zeyad-mansour/))
+* Manav Malik ([@0xmmalik](https://github.com/0xmmalik/))
 
 ## Notes
 
