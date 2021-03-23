@@ -10,10 +10,10 @@ The [YOLOv5](https://github.com/ultralytics/yolov5) framework yields extremely f
 This project has been integrated into a web application found [here](https://www.zeyadmansour.com/sdm/).
 
 Example Image Output:
-![demo_video_output](demo_video_output.png)
+![demo_video_output](demo_images/demo_video_output.png)
 
 Example Video Output:
-![demo_image_output](demo_image_output.png)
+![demo_image_output](demo_images/demo_image_output.png)
 
 ## Prerequisites
 
