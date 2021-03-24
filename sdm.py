@@ -21,7 +21,7 @@ detect_args = [python_dir, "yolov5/detect.py", "--weights", "yolov5/weights/best
 
 if len_argv == 2 or 3: detect_args[5] = sys.argv[1]
 
-if len_argv not in [1, 2, 3]: raise Exception("extraneous arguments")
+if len_argv not in {1, 2, 3}: raise Exception("extraneous arguments")
 
 if debug:
     print("debugging...")
