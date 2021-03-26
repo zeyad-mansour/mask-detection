@@ -52,6 +52,9 @@ This project was created by:
 ## Notes
 
 This project was created as part of [OSU's 2021 HS hackathon](https://hack.osu.edu/hs/2021/) and won 1st place.
+#### Future Updates:
+- Use computer vision to implement social distancing approximation
+- Improve the style of the web application
 
 ## License
 
