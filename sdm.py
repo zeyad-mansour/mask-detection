@@ -14,7 +14,11 @@ import io
 #os.system('cls' if os.name == 'nt' else 'clear')
 
 len_argv = len(sys.argv)
-python_dir = str(subprocess.check_output("which python", shell=True))[2:-3]
+
+if platform.system() == "Linux":
+    python_dir = str(subprocess.check_output("which python", shell=True))[2:-3]
+else:
+    python_dir = "python"
 
 debug = True if "debug" in sys.argv else False
 detect_args = [python_dir, "yolov5/detect.py", "--weights", "yolov5/weights/200thEpoch.pt", "--source", "0", "--iou-thres", "0.3", "--conf-thres", "0.6"]
