@@ -7,7 +7,7 @@ The [YOLOv5](https://github.com/ultralytics/yolov5) framework yields extremely f
 
 ## Demo
 
-This project has been integrated into a web application found [here](https://www.zeyadmansour.com/sdm/).
+This project has been integrated into a web application found [here](https://www.zeyadmansour.com/sdm/) (currently down while we resolve hosting issues).
 
 Example Image Output:
 ![demo_image_output](demo_images/demo_image_output.png)
