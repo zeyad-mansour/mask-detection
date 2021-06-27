@@ -49,6 +49,8 @@ This project was created by:
 * Zeyad Mansour ([@zeyad-mansour](https://github.com/zeyad-mansour/))
 * Manav Malik ([@0xmmalik](https://github.com/0xmmalik/))
 
+It was created for the [2021 High School I/O hackathon](https://hack.osu.edu/hs/2021/) and received 1st place.
+
 #### Future Updates:
 - Use computer vision to implement social distancing approximation
 - Improve the style of the web application
