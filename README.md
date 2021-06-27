@@ -41,7 +41,7 @@ python sdm.py [source]
 
 _Ensure that the default interpreter for the `python` command is version 3.7 or above (or use `python3`)_
 
-Option 2: Upload images/videos to the [web application](https://www.zeyadmansour.com/sdm/).
+Option 2: Upload images/videos to the [web application](https://www.zeyadmansour.com/old-files/sdm).
 ## Contributors
 
 This project was created by:
@@ -49,9 +49,6 @@ This project was created by:
 * Zeyad Mansour ([@zeyad-mansour](https://github.com/zeyad-mansour/))
 * Manav Malik ([@0xmmalik](https://github.com/0xmmalik/))
 
-## Notes
-
-This project was created as part of [OSU's 2021 HS hackathon](https://hack.osu.edu/hs/2021/) and won 1st place.
 #### Future Updates:
 - Use computer vision to implement social distancing approximation
 - Improve the style of the web application
