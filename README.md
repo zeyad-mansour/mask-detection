@@ -1,4 +1,4 @@
-# Mask Detection Monitor
+# Mask Detection
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/zeyad-mansour/mask-detection-monitor)
 ![GitHub contributors](https://img.shields.io/github/contributors/zeyad-mansour/mask-detection-monitor)
@@ -20,7 +20,7 @@ Example Video Output:
 * You have installed a 64-bit release of [Python](https://www.python.org/downloads/) 3.7 or above
 * All Python modules required are installed (see "Installing SDM" below)
 
-## Installing SDM
+## Installation
 
 1. Clone this repository.
 
@@ -29,7 +29,7 @@ Example Video Output:
 pip install -r requirements.txt
 ```  
 
-## Using SDM
+## Usage
 
 Option 1: Navigate to the root of the project folder via the CLI. e.g.,
 ```
